@@ -64,11 +64,10 @@ class Card extends HTMLElement {
                 margin: 10px;
             }
 
+
             a {
                 color: #66ff66;
-                
             }
-
         `
         return style;
     }

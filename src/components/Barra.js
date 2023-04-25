@@ -37,8 +37,6 @@ class Barra extends HTMLElement {
 		.barra {
 			display: flex;
 			flex-direction: column;
-			height: 100px;
-			width: auto;
 			background-color: #333;
 			color: #f1f1f1;
 			justify-content: center;
@@ -49,6 +47,7 @@ class Barra extends HTMLElement {
 		h1 {
 			letter-spacing: 18px;
 			text-align: center;
+			text-shadow: 5px;
 		}
 
 		p {
@@ -56,6 +55,16 @@ class Barra extends HTMLElement {
 			text-align: center;
 			letter-spacing: 10px;
 
+		}
+
+
+		@media screen and (max-width: 576px) {
+			h1 {
+				font-size: 25px;
+			}
+			p {
+				font-size: 16px;
+			}
 		}
 
 		`
