@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="src/components/Barra.js" defer></script>
+	<script src="src/components/Botao.js" defer></script>
+	<script src="src/components/card.js" defer></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto&display=swap" rel="stylesheet">
+
+	<style>
+		* {
+			padding: 0;
+			margin: 0;
+			background-color: black;
+		}
+
+		.container {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+			padding: .5rem;
+		}
+
+
+	</style>
+	<title>GOSPEL-FLIX</title>
+</head>
+<body>
+	<minha-barra content = "Gospel-Flix" valor="Alimente sua alma com filmes que fortalecem sua fé"></minha-barra>
+
+
+	<div class="container">
+		<my-card imagem = "https://files.adventistas.org/feliz7play/v2/sites/2/2023/03/youtube-de-repente-crente.jpg"
+				content = "DE REPENTE CRENTE"
+				ano="2023"
+				time="104"
+				link="https://www.youtube.com/watch?v=3WRXk8TgTos"
+		></my-card>
+		<my-card imagem = "https://i.ytimg.com/vi/e7JBABl_kKs/maxresdefault.jpg"
+				content = "VOCÊ NÃO SABE"
+				ano="2020"
+				time="105"
+				link="https://www.youtube.com/watch?v=e7JBABl_kKs&t=12s"
+		></my-card>
+		<my-card imagem = "https://i.ytimg.com/vi/25PfhGua2N0/maxresdefault.jpg"
+				content = "RENASCIDOS - NOVO CORAÇÃO"
+				ano="2020"
+				time="116"
+				link="https://www.youtube.com/watch?v=25PfhGua2N0&t=3s"
+		></my-card>
+		<my-card imagem = "https://cdn.unasp.br/blog/wp-content/uploads/2018/04/Captura-de-Tela-2018-04-12-a%CC%80s-10.38.01-e1523540344636.png"
+				content = "LIBERTOS - O PREÇO DA VIDA"
+				ano="2018"
+				time="88"
+				link="https://www.youtube.com/watch?v=rbO2VqyWiGQ&t=21s"
+		></my-card>
+		<my-card imagem = "https://i.ytimg.com/vi/wzM3RTsTKgo/maxresdefault.jpg"
+				content = "A MELHOR AVENTURA"
+				ano="2020"
+				time="88"
+				link="https://www.youtube.com/watch?v=QjLgLsBlUN4"
+		></my-card>
+		<my-card imagem = "https://files.adventistas.org/feliz7play/v2/sites/2/2022/08/Image-preco-do-resgate.jpg"
+				content = "O PREÇO DO RESGATE"
+				ano="2022"
+				time="136"
+				link="https://www.youtube.com/watch?v=jwmepgs7EWU&t=12s"
+		></my-card>
+	</div>
+</body>
+</html>
